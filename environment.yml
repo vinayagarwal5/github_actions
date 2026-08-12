@@ -1,8 +1,9 @@
-name: base
+name: myenv
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.10
-  - flake8
-  - pytest
+  - numpy
+  - pip
+  - pip:
+    - pytest
